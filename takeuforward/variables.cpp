@@ -16,3 +16,5 @@ int main() {
     s.studentRollNo();
     return 0;
 }
+
+// Output: The rollNo is: 25
