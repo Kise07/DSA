@@ -16,3 +16,6 @@
 * **Instance Variables**: Instance variables are declared in a class but outside the functions, methods, and other blocks. These variables get memory when an object of that class is created and are destroyed when the object gets destroyed. It is not mandatory to initialize them. Access specifiers can also be used but if we don’t specify them then the default is private.
 
   ![1662028035756](image/README/1662028035756.png)
+* **Static Variables**: Static variables are similar to instance variables but are common to every object of the class which means only one copy of the variable is created irrespective of how many numbers of objects are created in the program. They are declared using a static keyword before the data type. They get memory at the start of the program and get destroyed when the program ends. It is mandatory to initialize them and it is done outside the class.
+
+  ![1662029857902](image/README/1662029857902.png)
