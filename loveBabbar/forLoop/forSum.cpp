@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 
     int n;
-    cout << "Enter the value of n: " << endl;
+    cout << "Enter the value of n: ";
     cin >> n;
     
     // Sum from 1 - n
@@ -17,4 +17,9 @@ int main() {
     }
 
     cout << sum << endl;
+    
+    /* Output: 
+    Enter the value of n: 5
+    15
+    */
 }
