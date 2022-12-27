@@ -1,20 +1,23 @@
 #include <iostream>
 using namespace std;
 
-int main() {
 
-    bool isMale = false;
-    bool isTall = false;
-
-    if(isMale && isTall) {
-        cout << "You are a tall male";
-    } else if(isMale && !isTall) {
-        cout << "You are a short male";
-    } else if(!isMale && isTall) {
-        cout << "You are tall but not male";
+int getMax(int num1, int num2, int num3) {
+    int result;
+    
+    if(num1 >= num2 && num1 >= num3) {
+        result = num1;
+    } else if(num2 >= num1 && num2 >= num3) {
+        result = num2;
     } else {
-        cout << "You are not male and tall";
+        result = num3;
     }
 
+    return result;
+}
+
+int main() {
+
+    cout << getMax(2, 59, 7);
     return 0;
 }
