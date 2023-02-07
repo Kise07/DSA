@@ -3,26 +3,22 @@ using namespace std;
 
 int main() {
 
-    int n;
-    cin >> n;
+	int n;
+	cin >> n;
 
-    int row = 1;
-    /* Output: 5
-    1 
-    2 1 
-    3 2 1 
-    4 3 2 1 
-    5 4 3 2 1
-    */
-    while(row <= n) {
+	// Outer loop
+	int i = 1;
+	while(i <= n) {
 
-        int col = 1;
-        while(col <= row) {
-
-            cout << (row - col + 1) << " "; // reverse of (n - j + 1) Patt3Que
-            col = col + 1;
-        }
-        cout << endl;
-        row = row + 1;
-    }
-}
+		// Inner loop
+		int j = 1;
+		while(j <= n) {
+			// Use formula: `'A' + i - 1`
+			char ch = 'A' + i - 1;
+			cout << ch << " ";
+			j = j + 1;
+		}
+		cout << endl;
+		i = i + 1;
+	}
+} 
