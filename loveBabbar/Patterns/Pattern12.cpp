@@ -3,25 +3,23 @@ using namespace std;
 
 int main() {
 
-    int n;
-    cin >> n;
+	int n;
+	cin >> n;
 
-    int row = 1;
-    /* Output: 3
-    A B C 
-    A B C 
-    A B C 
-    */
-    while(row <= n) {
+	// Outer loop
+	int i = 1;
+	char ch = 'A';
+	while(i <= n) {
 
-        int col = 1;
-        while(col <= n) {
-
-            char ch = 'A' + col - 1;
-            cout << ch << " ";
-            col = col + 1;
-        }
-        cout << endl;
-        row = row + 1;
-    }
+		// Inner loop
+		int j = 1;
+		while(j <= n) {
+			// print start character here & increment it!
+			cout << ch << " ";
+			ch = ch + 1;
+			j = j + 1;
+		}
+		cout << endl;
+		i = i + 1;
+	}
 }

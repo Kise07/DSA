@@ -3,26 +3,22 @@ using namespace std;
 
 int main() {
 
-    int n;
-    cin >> n;
+	int n;
+	cin >> n;
 
-    int row = 1;
-    char value = 'A';
-    /* Output: 3
-    A B C 
-    D E F 
-    G H I 
-    */
-    while(row <= n) {
+	// Outer loop
+	int i = 1;
+	while(i <= n) {
 
-        int col = 1;
-        while(col <= n) {
-
-            cout << value << " ";
-            value = value + 1;
-            col = col + 1;
-        }
-        cout << endl;
-        row = row + 1;
-    }
+		// Inner loop
+		int j = 1;
+		while(j <= n) {
+			// Use formula: `'A' + i + j - 2`
+			char ch = 'A' + i + j - 2;
+			cout << ch << " ";
+			j = j + 1;
+		}
+		cout << endl;
+		i = i + 1;
+	}
 }
