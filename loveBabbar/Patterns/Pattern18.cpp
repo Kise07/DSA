@@ -13,13 +13,13 @@ int main() {
 		// Use formula: `n - i` for spaces here!
 		int space = n - i;
 
-		// while loop for space
+		// Space while loop
 		while(space) {
-		cout << "  ";
-		space = space - 1;
+			cout << "  ";
+			space = space - 1;
 		}
 
-		// Star print
+		// Star while loop
 		int j = 1;
 		while(j <= i) {
 			// '*' print
