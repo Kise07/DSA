@@ -11,7 +11,6 @@
 > No. 5 <img width="81" alt="Screenshot 2023-02-10 at 1 24 21 AM" src="https://user-images.githubusercontent.com/73417521/217925998-f445bc8f-1837-454c-8421-6b1c5bf32ea6.png">
 
 > No. 6 <img width="139" alt="Screenshot 2023-02-10 at 1 24 42 AM" src="https://user-images.githubusercontent.com/73417521/217926823-e0c38d87-a056-4fea-b4ee-ea07e073c869.png">
-<img width="216" alt="Screenshot 2023-02-10 at 1 25 06 AM" src="https://user-images.githubusercontent.com/73417521/217926973-466e4676-a50b-4f86-a2c5-beebb3b6006b.png">
 
 > No. 7 <img width="216" alt="Screenshot 2023-02-10 at 1 25 06 AM" src="https://user-images.githubusercontent.com/73417521/217926994-e981c870-2119-4807-985e-3ad7f24de467.png">
 
